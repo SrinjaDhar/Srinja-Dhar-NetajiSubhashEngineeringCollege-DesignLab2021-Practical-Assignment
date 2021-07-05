@@ -1,0 +1,123 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.right{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+.right:hover{
+  background-color: rgb(26, 25, 25);
+  color:white;
+  text-decoration:none;
+}
+
+li a
+{
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(26, 25, 25);
+  color:white;
+  text-decoration:none;
+}
+.active
+{
+  color:rgb(106, 220, 255);
+  background-color:rgb(26, 25, 25);
+}
+div{
+  background-color: rgb(26, 25, 25);
+}
+.bg{
+  background-image: url("https://wallpapercave.com/wp/wp4738337.jpg");
+  height:500px;
+  margin-top:60px;
+}
+#heading{
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:100px;
+  margin-left:40px;
+}
+#org{
+  color:black;
+}
+#caption{
+  color:#282c34;
+  font-family: 'Monotype Corsiva';
+  font-size:50px;
+  margin-left:40px;
+}
+#name{
+  color:#282c34;
+  margin-left:40px;
+}
+.blue{
+  background-color:rgb(57, 175, 230);
+}
+.red{
+  background-color:rgb(179, 19, 19);
+}
+
+.george{
+  margin-left:100px;
+  margin-top:100px;
+}
+
+.white{
+  float:left;
+  margin-left:500px;
+}
+
+.container {
+  margin-top:50px;
+  display : flex;
+ flex-direction : row;
+}
+#poemtext{
+  background-image:url("https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg");
+  width:700px;
+  height:500px;
+  font-family:'STIX Two Math';
+  padding-right:100px;
+  padding-left:100px;
+  font-size:15px;
+}
+#poemname{
+  font-size:40px;
+  font-family:'Monotype Corsiva';
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 30px;
+}
+#button{
+  border:rgb(0, 110, 255);
+  background-color:rgb(0, 110, 255);
+  color:white;
+  padding:10px;
+  margin-top:10px;
+  font-family:"Times";
+  font-weight:bold;
+}
+
+.poems{
+  background-image:url("poems.jpg");
+  width:1349px;
+  height:650px;
+}
